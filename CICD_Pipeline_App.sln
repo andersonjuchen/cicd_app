@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cicd_pipeline_app.client", "cicd_pipeline_app.client\cicd_pipeline_app.client.esproj", "{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD_Pipeline_App.Server", "CICD_Pipeline_App.Server\CICD_Pipeline_App.Server.csproj", "{424F2E11-64B9-43A3-9B7B-DB8E19E58F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DDED4E-7598-0B01-1ADC-6A7EF974A22F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{424F2E11-64B9-43A3-9B7B-DB8E19E58F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424F2E11-64B9-43A3-9B7B-DB8E19E58F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424F2E11-64B9-43A3-9B7B-DB8E19E58F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424F2E11-64B9-43A3-9B7B-DB8E19E58F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7CA4871-2318-442D-9CA5-DC64E2D6C425}
+	EndGlobalSection
+EndGlobal
