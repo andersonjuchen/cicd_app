@@ -6,7 +6,6 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-
 app.UseDefaultFiles();
 app.MapStaticAssets();
 
